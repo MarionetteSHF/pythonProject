@@ -3,13 +3,12 @@ from flask import Flask
 from flask import render_template
 
 
-from PIL import Image
+
 app = Flask(__name__)
 import sql
 """
 这是一个展示Flask如何读取服务器本地图片, 并返回图片流给前端显示的例子
 """
-import base64
 
 def return_img_stream(img_local_path):
     """

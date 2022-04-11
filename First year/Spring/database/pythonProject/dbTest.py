@@ -1,6 +1,4 @@
-import os
 
-import sql
 
 
 rows =sql.fetchall('Photos')
