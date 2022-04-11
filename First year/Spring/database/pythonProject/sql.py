@@ -1,8 +1,4 @@
-import psycopg2,functools
-from flask import current_app, g
 
-from flask.cli import with_appcontext
-# with app.app_context():
 
 
 # def get_db():

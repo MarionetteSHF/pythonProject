@@ -1,10 +1,7 @@
-from flask import  request
+
 from flask import Flask
 from flask import render_template
-import psycopg2
-import  numpy as np
-# import OpenCV
-import io
+
 
 from PIL import Image
 app = Flask(__name__)
